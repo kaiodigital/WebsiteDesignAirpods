@@ -1,7 +1,7 @@
 /*Google fonts*/
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
 
-/*----- VARIABLES CSS Y SASS -----*/
+/*----- VARIABLES CSS & SASS -----*/
 // Varibles sass
 $header-height: 3rem;
 
@@ -11,14 +11,14 @@ $font-bold: 700;
 
 /*Variables css*/
 
-/*Colores*/
+/*Colors*/
 :root {
   --first-color: #1d1d1f;
   --second-color: #0071e3;
   --white-color: #fff;
 }
 
-/*Fuente y tipografia*/
+/*Fonts*/
 :root {
   --body-font: "Roboto", sans-serif;
 
@@ -149,7 +149,7 @@ img {
     border-radius: 2rem;
   }
 }
-/*Aparecer menu*/
+/*ShowMenu*/
 .show {
   top: $header-height;
 }

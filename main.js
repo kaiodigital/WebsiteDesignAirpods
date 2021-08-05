@@ -1,15 +1,15 @@
-const showMenu = (toggleId, navId) => {
-  const toggle = document.getElementById(toggleId),
-    nav = document.getElementById(navId);
+const showMenu = (toggle, nav) => {
+  const navToggle = document.querySelector('.nav__toggle')
+  const navMenu = document.querySelector('.nav__menu');
 
   if (toggle && nav) {
-    toggle.addEventListener("click", () => {
-      nav.classList.toggle("show");
+    navToggle.addEventListener("click", () => {
+      navMenu.classList.toggle("show");
     });
   }
 };
 
-showMenu("nav-toggle", "nav-menu");
+showMenu("nav__toggle", "nav__menu");
 
 /*-- ANIMATE GSAP --*/
 
